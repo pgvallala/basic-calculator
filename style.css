@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital@1&display=swap");
 
 body {
-  background-image: #f7f73f;
-  font-family: "Montserrat", sans-serif;
+  background-color: rgb(211, 211, 104);
+  font-family: "Besley", sans-serif;
 }
 
 .container {
@@ -72,3 +72,4 @@ body {
     width: 100px;
     border-radius: 10px;
 }
+
