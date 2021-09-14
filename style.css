@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 body {
-  background-image: #dde1e7;
+  background-image: #f7f73f;
   font-family: "Montserrat", sans-serif;
 }
 
 .container {
-  background: #dde1e7;
+  background: #808000;
   width: 320px;
   height: 550px;
   border-radius: 0.5em;
@@ -33,5 +33,42 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1em;
+  color: aliceblue;
 }
 
+.container .buttons .button,
+.container .buttons .num-button {
+  cursor: pointer;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+  height: 50px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px #ffffff73;
+  
+}
+
+.button:hover {
+    color: hotpink;
+    box-shadow: 2px 2px 5px hotpink, -5px -5px -5px hotpink;
+}
+
+.action-btn {
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+}
+
+.calc-action-btn {
+    color: hotpink;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.container .buttons .equals {
+    color: rgb(255, 145, 0);
+    grid-column: 3 / 3;
+    width: 100px;
+    border-radius: 10px;
+}
